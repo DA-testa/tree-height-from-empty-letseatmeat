@@ -31,8 +31,8 @@ def main():
         f1 = input()
         if "a" not in f1:
             with open("./test/" + f1, "r") as f2:
-                e = int(f2.readLine())
-                out=list(map(int, f2.readLine().split()))
+                e = int(f2.readline())
+                out=list(map(int, f2.readline().split()))
                 print(compute_height(z,out))
     
     # implement input form keyboard and from files
