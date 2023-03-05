@@ -30,7 +30,7 @@ def main():
     if "F" in y:
         f1 = input()
         if "a" not in f1:
-            with open("./test/" + f, "r") as f2:
+            with open("./test/" + f1, "r") as f2:
                 e = int(f2.readLine())
                 out=list(map(int, f2.readLine().split()))
                 print(compute_height(z,out))
