@@ -33,7 +33,7 @@ def main():
             with open("./test/" + f1, "r") as f2:
                 e = int(f2.readline())
                 out=list(map(int, f2.readline().split()))
-                print(compute_height(z,out))
+                print(compute_height(e,out))
     
     # implement input form keyboard and from files
     
