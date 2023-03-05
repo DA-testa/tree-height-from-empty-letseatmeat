@@ -14,11 +14,11 @@ def compute_height(n, parents):
             return 0
         hx = 1 + treeheight(parents[i])
         x[i] = hx
-        return
+        return hx
     max_height = 0
     # Your code here
-    for i in range(s):
-        max_height = max(max_height, height(i))
+    for i in range(n):
+        max_height = max(max_height, treeheight(i))
     return max_height
 
 def main():
